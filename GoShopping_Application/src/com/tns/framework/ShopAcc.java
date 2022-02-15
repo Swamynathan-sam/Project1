@@ -14,11 +14,11 @@ public abstract class ShopAcc
 	}
 	public void bookProduct(float charges)
 	{
-		
+		System.out.println("Product booked and charges are : "+charges);
 	}
 	void items(float charges)
 	{
-		
+		System.out.println("Items delivered with charges : "+charges);
 	}
 	@Override
 	public String toString() {

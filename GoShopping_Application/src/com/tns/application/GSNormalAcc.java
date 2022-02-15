@@ -12,8 +12,8 @@ public class GSNormalAcc extends NormalAcc
 
 	@Override
 	public void bookProduct(float deliveryCharge) {
-		// TODO Auto-generated method stub
-		super.bookProduct(deliveryCharge);
+		System.out.println("dear normal user, Your Charges are: "+charges+" with delivary charge is: "+deliveryCharge);
+		//super.bookProduct(deliveryCharge);
 	}
 
 	@Override

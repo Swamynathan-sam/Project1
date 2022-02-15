@@ -12,7 +12,7 @@ public abstract class PrimeAcc extends ShopAcc
 
 	public void bookProduct(float Charges)
 	{
-		
+		System.out.println("Charges are:"+Charges);
 	}
 
 	@Override

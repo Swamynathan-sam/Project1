@@ -11,7 +11,7 @@ public class GSPrimeAcc extends PrimeAcc
 	}
 	public void bookProduct(float charges)
 	{
-		
+		System.out.println("Dearprime user , your product charges are: "+charges);
 	}
 	@Override
 	public String toString() {
